@@ -1,12 +1,10 @@
-# Huggingface-Demo
-title: Demo
+---
+title: Deep Query
 emoji: 🚀
-colorFrom: red
-colorTo: red
-sdk: docker
-app_port: 8501
-tags:
-  - streamlit
+colorFrom: green
+colorTo: purple
+sdk: streamlit
+sdk_version: 1.41.1
+app_file: app.py
 pinned: false
-short_description: App for document-based question-answering using the Groq API
-license: cc
+---
