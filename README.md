@@ -29,12 +29,12 @@ This project introduces a robust, document-grounded Q&A system that:
 * Provides interactive analytics to monitor usage trends and query categories for continuous improvement.
 
 ### Features
-** Document Versatility: **  Supports PDFs, DOCX, TXT, WhatsApp chats, and social media data—both structured and unstructured.
-** Document-Grounded Answers: ** Answers are generated solely from uploaded documents, preventing hallucinations.
-** Fine-Tuning Ready:**  Utilizes Groq’s fine-tuned LLMs for domain-specific Q&A.
-** Fast Vector Search:**  Uses Hugging Face embeddings and FAISS for efficient context retrieval.
-** Interactive Analytics:**  Provides dashboards showing query categories and usage trends.
-** User-Friendly Interface:**  Built with Streamlit for easy uploads, configuration, and interactive querying.
+* Document Versatility: Supports PDFs, DOCX, TXT, WhatsApp chats, and social media data—both structured and unstructured.
+* Document-Grounded Answers: Answers are generated solely from uploaded documents, preventing hallucinations.
+* Fine-Tuning Ready: Utilizes Groq’s fine-tuned LLMs for domain-specific Q&A.
+* Fast Vector Search: Uses Hugging Face embeddings and FAISS for efficient context retrieval.
+* Interactive Analytics: Provides dashboards showing query categories and usage trends.
+* User-Friendly Interface: Built with Streamlit for easy uploads, configuration, and interactive querying.
 
 ## Componets of Deep Query
 ![image](https://github.com/user-attachments/assets/714a746e-b229-41ea-b412-33f3010054f8)
