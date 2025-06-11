@@ -14,13 +14,11 @@ pinned: false
 This project is a demonstration of how to build an AI-powered Document Q&A System using Groq’s large language models (LLMs) integrated with LangChain’s RAG (Retrieval-Augmented Generation) framework. The app processes uploaded documents (PDF, DOCX, TXT, WhatsApp chats, and social media files—both structured and unstructured), enabling users to ask questions and receive accurate, context-aware answers directly from the content they’ve provided. The app ensures that answers are strictly grounded in the uploaded documents, and it transparently indicates when answers are not available—preventing hallucinations and maintaining reliability.
 
 ### Problem Statement
+
 Traditional document Q&A systems face several challenges:
-
-Poor Retrieval Quality: Incomplete or irrelevant passages can lead to incorrect or hallucinated answers.
-
-Contextual Gaps: Answer generation often pulls unrelated information from outside the document, leading to misleading responses.
-
-Lack of Trust: Users need confidence that answers are grounded in their own documents, especially for sensitive data like WhatsApp chats or social media content.
+1. Poor Retrieval Quality: Incomplete or irrelevant passages can lead to incorrect or hallucinated answers.
+2. Contextual Gaps: Answer generation often pulls unrelated information from outside the document, leading to misleading responses.
+3. Lack of Trust: Users need confidence that answers are grounded in their own documents, especially for sensitive data like WhatsApp chats or social media content.
 
 ### Proposed Solution
 This project introduces a robust, document-grounded Q&A system that:
