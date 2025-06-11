@@ -22,11 +22,11 @@ Traditional document Q&A systems face several challenges:
 
 ### Proposed Solution
 This project introduces a robust, document-grounded Q&A system that:
-✅ Parses a wide range of documents—including WhatsApp chats, social media exports, PDFs, DOCX, and TXT files—using reliable parsing libraries (PyMuPDF, python-docx, and text parsing).
-✅ Utilizes LangChain’s RAG architecture with FAISS and Hugging Face embeddings to retrieve the most relevant content chunks.
-✅ Fine-tunes Groq’s large language models on domain-specific tasks to enhance accuracy and relevance in answering questions from documents.
-✅ Ensures that answers come strictly from uploaded documents, and if no relevant content is found, the system explicitly informs the user.
-✅ Provides interactive analytics to monitor usage trends and query categories for continuous improvement.
+* Parses a wide range of documents—including WhatsApp chats, social media exports, PDFs, DOCX, and TXT files—using reliable parsing libraries (PyMuPDF, python-docx, and text parsing).
+* Utilizes LangChain’s RAG architecture with FAISS and Hugging Face embeddings to retrieve the most relevant content chunks.
+* Fine-tunes Groq’s large language models on domain-specific tasks to enhance accuracy and relevance in answering questions from documents.
+* Ensures that answers come strictly from uploaded documents, and if no relevant content is found, the system explicitly informs the user.
+* Provides interactive analytics to monitor usage trends and query categories for continuous improvement.
 
 ### Features
 Document Versatility: Supports PDFs, DOCX, TXT, WhatsApp chats, and social media data—both structured and unstructured.
