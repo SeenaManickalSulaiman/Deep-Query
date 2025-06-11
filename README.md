@@ -29,7 +29,7 @@ This project introduces a robust, document-grounded Q&A system that:
 * Provides interactive analytics to monitor usage trends and query categories for continuous improvement.
 
 ### Features
-** Document Versatility:**  Supports PDFs, DOCX, TXT, WhatsApp chats, and social media data—both structured and unstructured.
+** Document Versatility: **  Supports PDFs, DOCX, TXT, WhatsApp chats, and social media data—both structured and unstructured.
 ** Document-Grounded Answers: ** Answers are generated solely from uploaded documents, preventing hallucinations.
 ** Fine-Tuning Ready:**  Utilizes Groq’s fine-tuned LLMs for domain-specific Q&A.
 ** Fast Vector Search:**  Uses Hugging Face embeddings and FAISS for efficient context retrieval.
